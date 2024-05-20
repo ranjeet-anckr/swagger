@@ -1,14 +1,13 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
-import { SiteHeader } from '@/components/site-header';
-import { TailwindIndicator } from '@/components/tailwind-indicator';
-import { ThemeProvider } from '@/components/theme-provider';
-import { siteConfig } from '@/config/site';
-import { fontSans } from '@/lib/fonts';
-import { cn } from '@/lib/utils';
+import { SiteHeader } from '@/src/components/site-header';
+import { TailwindIndicator } from '@/src/components/tailwind-indicator';
+import { ThemeProvider } from '@/src/components/theme-provider';
+import { siteConfig } from '@/src/config/site';
+import { fontSans } from '@/src/lib/fonts';
+import { cn } from '@/src/lib/utils';
 
-import '@/styles/globals.css';
 
 export const metadata: Metadata = {
   title: {
